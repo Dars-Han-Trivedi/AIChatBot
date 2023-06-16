@@ -16,7 +16,7 @@ from langchain.experimental import AutoGPT
 
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 llm = OpenAI(temperature=0.9)
 
